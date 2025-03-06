@@ -76,7 +76,7 @@ export default function Home() {
       </div>
 
       
-      <div className="absolute left-1/4 bottom-4 transform -translate-x-1/2 w-full max-w-2xl bg-[#1a1a1a] p-2 rounded-xl border border-gray-700 shadow-lg flex items-center">
+      <div className="absolute left-1/4 bottom-4 transform -translate-x-1/2 w-1/2 max-w-2xl bg-[#1a1a1a] p-2 rounded-xl border border-gray-700 shadow-lg flex items-center">
         
         <textarea
           className="flex-1 bg-transparent text-white placeholder-gray-500 outline-none resize-none p-2 max-h-40 overflow-y-auto"
