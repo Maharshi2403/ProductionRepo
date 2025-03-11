@@ -23,8 +23,6 @@ function Introduction({ children }: intro) {
   return <div className="max-w-99/100">{children}</div>;
 }
 
-
-
 export default function Home() {
   const [rows, setrows] = useState(3);
   const [click, setClick] = useState(false);
@@ -33,14 +31,13 @@ export default function Home() {
 
   async function connectServer() {
     try {
-      const res = await fetch("https://production-repo.vercel.app/", {
+      const res = await fetch("https://production-repo-usxy.vercel.app/", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
         },
-        
       });
-  
+
       const t = await res.json();
       setData(t.response);
     } catch (err) {

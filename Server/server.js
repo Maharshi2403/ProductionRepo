@@ -9,3 +9,11 @@ server.get("/", (req, res) => {
     msg: "Server responded",
   });
 });
+
+server.listen(5000, (err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("Server is Listning on 5000!!");
+  }
+});
