@@ -31,7 +31,7 @@ export default function Home() {
 
   async function connectServer() {
     try {
-      const res = await fetch("https://production-repo-usxy.vercel.app/", {
+      const res = await fetch("https://productionrepo-1.onrender.com/", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
