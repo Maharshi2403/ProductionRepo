@@ -39,7 +39,7 @@ export default function Home() {
       });
 
       const t = await res.json();
-      setData(t.response);
+      setData(t.msg);
     } catch (err) {
       console.log(err);
     }
